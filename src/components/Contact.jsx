@@ -12,8 +12,7 @@ export default function Contact({ lang = "EN" }) {
     },
     TH: {
       title: "ติดต่อฉัน",
-      subtitle:
-        "สามารถติดต่อเพื่อพูดคุยเรื่องโอกาสในการทำงานหรือความร่วมมือต่างๆ ได้ครับ",
+      subtitle: "ติดต่อเพื่อพูดคุยเรื่องโอกาสในการทำงานหรือความร่วมมือต่างๆ",
       email: "spolmag@gmail.com",
       phone: "(+66) 0895181958",
       location: "กรุงเทพมหานคร, ประเทศไทย",
@@ -43,7 +42,12 @@ export default function Contact({ lang = "EN" }) {
           <div className="bg-gray-800/80 border border-gray-700/60 p-6 rounded-xl flex flex-col items-center text-center">
             <Phone className="w-8 h-8 text-blue-400 mb-3" />
             <h3 className="font-semibold mb-2">Phone</h3>
-            <span className="text-gray-300 text-sm">{t.phone}</span>
+            <a
+              href="tel:+66895181958"
+              className="text-gray-300 hover:text-blue-400 text-sm"
+            >
+              {t.phone}
+            </a>
           </div>
 
           <div className="bg-gray-800/80 border border-gray-700/60 p-6 rounded-xl flex flex-col items-center text-center">
