@@ -10,10 +10,10 @@ export default function Home({ lang = "EN" }) {
         "Experienced in software development, system architecture, audio-visual technologies, organization management.",
     },
     TH: {
-      name: "สุทธิพงษ์ พลแมกซ์",
-      role: "จัดการระบบและซอฟต์แวร์-บริหารจัดการองค์กร",
+      name: "สุทธิพงษ์ ผลมาก",
+      role: "จัดการระบบ-ซอฟต์แวร์-บริหารจัดการองค์กร",
       about:
-        "มีประสบการณ์ด้านการพัฒนาซอฟต์แวร์ สถาปัตยกรรมระบบ ระบบภาพและเสียง และการบริหารจัดการองค์กร",
+        "พัฒนาซอฟต์แวร์ สถาปัตยกรรมระบบ ระบบภาพและเสียง และการบริหารจัดการองค์กร",
     },
   };
 
