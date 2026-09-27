@@ -43,7 +43,7 @@ export default function Contact({ lang = "EN" }) {
             <Phone className="w-8 h-8 text-blue-400 mb-3" />
             <h3 className="font-semibold mb-2">Phone</h3>
             <a
-              href="tel:+66895181958"
+              href="tel:0895181958"
               className="text-gray-300 hover:text-blue-400 text-sm"
             >
               {t.phone}
